@@ -1,0 +1,75 @@
+@import url(//db.onlinewebfonts.com/c/4fb2accf874593635afa99c122467fd6?family=MijaW03-Regular);
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "MijaW03-Regular";
+}
+
+nav {
+  background-color: #d33a2c;
+  padding: 16px 36px;
+  height: 63px;
+  display: grid;
+  grid-template-columns: 175px 1fr 350px;
+  column-gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+nav img {
+  height: 63px;
+  margin-bottom: -20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  font-size: 21.5px;
+}
+
+nav ul li:last-child {
+  display: flex;
+  align-items: center;
+  padding: .35em .5rem .35em 1rem;
+  border: 1px solid rgba(0, 0, 0, .05);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+nav .input-wraper {
+  display: flex;
+  align-items: center;
+}
+
+nav .input-wraper i {
+  font-size: 28px;
+  margin-right: -40px;
+  z-index: 2;
+  color: #d65636;
+}
+
+nav .input-wraper input {
+  width: calc(100% - 60px);
+  height: 53px;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+  padding: 0 0 0 60px;
+}
+
+nav .input-wraper input::placeholder {
+  font-weight: bold;
+  color: #7a7a7a;
+  font-size: 20px;
+}
