@@ -2,6 +2,7 @@
 body {
   padding: 0;
   margin: 0;
+  color: white;
   font-family: "MijaW03-Regular";
 }
 
@@ -33,7 +34,6 @@ nav ul {
 
 nav ul li {
   display: inline;
-  color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
   font-size: 21.5px;
 }
@@ -72,4 +72,53 @@ nav .input-wraper input::placeholder {
   font-weight: bold;
   color: #7a7a7a;
   font-size: 20px;
+}
+
+footer {
+  background-color: #d33a2c;
+  text-align: center;
+  padding: 40px;
+  line-height: 2rem;
+  background-image: url('https://www.smashingmagazine.com/images/footer/laptop__left.svg'), url('https://www.smashingmagazine.com//images/smashing-cat/cat-the-behemoth.svg');
+  background-position: left 15% bottom 1em, right 12% bottom 2em;
+  background-size: 11em auto, 14em auto;
+  background-repeat: no-repeat;
+}
+
+footer ul {
+  list-style-type: disc;
+}
+
+footer li {
+  display: inline;
+  font-size: 20px;
+}
+
+.red-button-list li::before {
+  content: '•';
+  margin: 0 .25em;
+  display: inline-block;
+  color: #811d15;
+  font-size: calc(1em + ((.4vw + .25vh)/2));
+  position: relative;
+  top: 2px;
+}
+
+.footer-em-wraper {
+  width: 40vw;
+  min-width: 400px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-em-wraper em {
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  margin-right: 20px;
 }
