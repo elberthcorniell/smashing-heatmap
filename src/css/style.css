@@ -222,12 +222,14 @@ article li {
   grid-template-rows: 500px;
   color: rgba(0, 0, 0, .5);
   background-color: rgba(0, 0, 0, .1);
+  z-index: 1;
 }
 
 .partners .article-row {
   grid-template-columns: 1fr;
   text-align: left;
   background-color: transparent;
+  z-index: 1;
 }
 
 .article-row>article {
@@ -348,8 +350,228 @@ article li {
   height: 250px;
 }
 
+.see-all {
+  height: 200px;
+  background-color: rgba(0, 0, 0, .1);
+  color: rgba(0, 0, 0, .7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.see-all p {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgba(0, 0, 0, .7);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.see-all p:hover {
+  color: rgba(0, 0, 0, .4);
+}
+
+.big-ad {
+  background-color: rgba(0, 0, 0, .7);
+  padding: 40px;
+  text-align: center;
+}
+
+.big-ad h1 {
+  font-size: 60px;
+  text-decoration: gray underline;
+}
+
+.big-ad p {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.big-ad button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7a7a7a;
+  margin: 30px 0;
+}
+
+.big-ad img {
+  width: 70vw;
+}
+
+.person-of-the-week {
+  display: flex;
+  padding: 30px;
+  color: rgba(0, 0, 0, .6);
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+}
+
+.person-of-the-week span {
+  text-transform: uppercase;
+}
+
+.person-of-the-week img {
+  margin: 40px;
+  transform: rotate(-10deg);
+  border: 5px solid rgba(0, 0, 0, 0.7);
+  border-radius: 11px;
+}
+
+.community-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px;
+  color: rgba(0, 0, 0, .75)
+}
+
+.community-articles article {
+  padding: 40px;
+  width: calc(100% - 80px);
+  display: flex;
+}
+
+.community-articles img {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  transform: rotate(-10deg);
+  border-radius: 11px;
+  border: 5px solid rgba(0, 0, 0, .75);
+}
+
+.community-articles span {
+  font-weight: bold;
+  color: rgba(0, 0, 0, .5);
+  font-size: 25px;
+}
+
+.community-articles h1 {
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 10px 0 20px 0;
+}
+
+.community-articles p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.community-articles p>span {
+  font-size: 14px;
+}
+
+.community-articles a {
+  text-decoration: underline;
+}
+
+.featured-book {
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+  padding: 40px 60px;
+}
+
+.featured-book h1 {
+  font-size: 40px;
+  text-decoration: #7a7a7a underline;
+}
+
+.featured-book p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.featured-book img {
+  transform: rotate(-10deg);
+  width: 250px;
+  height: 400px;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+.featured-book button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7a7a7a;
+  margin: 30px 0;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: fit-content fit-content;
+  color: #7a7a7a;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.guides>div {
+  margin: 40px;
+  background-color: white;
+  padding: 40px;
+  width: calc(100% - 140px);
+  border-radius: 11px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guides h1 {
+  font-size: 40px;
+}
+
+.guides p {
+  line-height: 30px;
+}
+
+.guides button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin: 30px 0;
+  background-color: gray;
+}
+
+.guides form button {
+  border-radius: 0 11px 11px 0;
+  margin: 0;
+}
+
+.guides input {
+  height: 62px;
+  border-radius: 11px 0 0 11px;
+  border: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.guides input::placeholder {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.guides>div:last-child {
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.guides form {
+  display: flex;
+  width: 100%;
+}
+
+.guides img {
+  width: 100%;
+}
+
 footer {
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, .7);
   text-align: center;
   padding: 40px;
   line-height: 2rem;
