@@ -4,7 +4,7 @@
 
 > Heatmap for Smash Magazine website
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/images/app_screenshot.png)
 
 In this project we can see a heatmap of the UI of Smash Magazine
 
