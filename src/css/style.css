@@ -122,43 +122,43 @@ nav .input-wraper input::placeholder {
   z-index: 0;
 }
 
-.lasted-articles>article:nth-child(1) {
+.lasted-articles > article:nth-child(1) {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 0;
 }
 
-.lasted-articles>article:nth-child(2) {
+.lasted-articles > article:nth-child(2) {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.lasted-articles>article:nth-child(3) {
+.lasted-articles > article:nth-child(3) {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.lasted-articles>article:nth-child(4) {
+.lasted-articles > article:nth-child(4) {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.lasted-articles>article {
+.lasted-articles > article {
   padding: 200px 50px;
 }
 
-.lasted-articles>article img {
+.lasted-articles > article img {
   height: 75px;
   width: 75px;
   border: 4px solid white;
   border-radius: 11px;
 }
 
-.lasted-articles>article strong {
+.lasted-articles > article strong {
   margin-top: -30px;
 }
 
-.lasted-articles>article h2 {
+.lasted-articles > article h2 {
   font-size: 40px;
 }
 
-.lasted-articles>article i {
+.lasted-articles > article i {
   font-size: 40px;
   position: relative;
   bottom: -60px;
@@ -192,7 +192,7 @@ article li {
   margin: 0 5px;
   display: inline-block;
   color: black;
-  font-size: calc(1em + ((.4vw + .25vh)/2));
+  font-size: calc(1em + ((.4vw + .25vh) / 2));
   position: relative;
   top: 2px;
 }
@@ -237,7 +237,7 @@ article li {
   z-index: 1;
 }
 
-.article-row>article {
+.article-row > article {
   background-color: transparent;
   margin: -20px;
   padding: 60px;
@@ -252,22 +252,22 @@ article li {
   line-height: 30px;
 }
 
-.article-row>article p {
+.article-row > article p {
   font-size: 18px;
   line-height: 25px;
 }
 
-.article-row>article h2 {
+.article-row > article h2 {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.7);
 }
 
-.article-row>article h1 {
+.article-row > article h1 {
   font-size: 30px;
   color: black;
 }
 
-.article-row>article i {
+.article-row > article i {
   position: relative;
   bottom: -25px;
   left: -60px;
@@ -276,14 +276,14 @@ article li {
   transition-duration: 0.3s;
 }
 
-.article-row>article:hover {
+.article-row > article:hover {
   background-color: white;
   margin-top: -30px;
   margin-bottom: -20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.article-row>article:hover i {
+.article-row > article:hover i {
   background-color: gray;
   color: white;
 }
@@ -465,7 +465,7 @@ article li {
   margin: 10px 0 20px 0;
 }
 
-.community-articles p>span {
+.community-articles p > span {
   font-size: 14px;
 }
 
@@ -521,7 +521,7 @@ footer a {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.guides>div {
+.guides > div {
   margin: 40px;
   background-color: white;
   padding: 40px;
@@ -567,7 +567,7 @@ footer a {
   font-size: 15px;
 }
 
-.guides>div:last-child {
+.guides > div:last-child {
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
 }
