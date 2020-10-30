@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 
 1- Clone the repository
 ```
-git clone https://github.com/elberthcorniell/Youtube-Clone.git
+git clone https://github.com/elberthcorniell/smashing-heatmap.git
 ```
 
 2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
