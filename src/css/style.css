@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/4fb2accf874593635afa99c122467fd6?family=MijaW03-Regular);
+
 body {
   padding: 0;
   margin: 0;
@@ -64,7 +65,7 @@ nav a {
 nav ul li:last-child {
   display: flex;
   align-items: center;
-  padding: .35em .5rem .35em 1rem;
+  padding: 0.35em 0.5rem 0.35em 1rem;
   border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
@@ -192,7 +193,7 @@ article li {
   margin: 0 5px;
   display: inline-block;
   color: black;
-  font-size: calc(1em + ((.4vw + .25vh) / 2));
+  font-size: calc(1em + ((0.4vw + 0.25vh) / 2));
   position: relative;
   top: 2px;
 }
@@ -435,7 +436,7 @@ article li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 400px 400px;
-  color: rgba(0, 0, 0, 0.75)
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .community-articles article {
@@ -516,7 +517,6 @@ footer a {
 .guides {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: fit-content fit-content;
   color: #7a7a7a;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -598,10 +598,10 @@ footer ul {
 
 .red-button-list li::before {
   content: '•';
-  margin: 0 .25em;
+  margin: 0 0.25em;
   display: inline-block;
   color: black;
-  font-size: calc(1em + ((.4vw + .25vh) / 2));
+  font-size: calc(1em + ((0.4vw + 0.25vh) / 2));
   position: relative;
   top: 2px;
 }
