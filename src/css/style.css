@@ -1,0 +1,620 @@
+@import url(//db.onlinewebfonts.com/c/4fb2accf874593635afa99c122467fd6?family=MijaW03-Regular);
+
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "MijaW03-Regular";
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+a {
+  color: inherit;
+}
+
+footer li {
+  display: inline;
+  font-size: 20px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 16px 36px;
+  height: 63px;
+  display: grid;
+  grid-template-columns: 175px 1fr 350px;
+  column-gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+nav img {
+  height: 63px;
+  margin-bottom: -20px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  font-size: 21.5px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+nav ul li:last-child {
+  display: flex;
+  align-items: center;
+  padding: 0.35em 0.5rem 0.35em 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav .input-wraper {
+  display: flex;
+  align-items: center;
+}
+
+nav .input-wraper i {
+  font-size: 28px;
+  margin-right: -40px;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+nav .input-wraper input {
+  width: calc(100% - 60px);
+  height: 53px;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 0 0 0 60px;
+}
+
+nav .input-wraper input::placeholder {
+  font-weight: bold;
+  color: #7a7a7a;
+  font-size: 20px;
+}
+
+.main-title {
+  height: 100px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  line-height: 70px;
+  z-index: 1;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.main-title mark {
+  background-color: white;
+  padding: 20px;
+}
+
+.lasted-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 600px 600px;
+  z-index: 0;
+}
+
+.lasted-articles > article:nth-child(1) {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.lasted-articles > article:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.lasted-articles > article:nth-child(3) {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.lasted-articles > article:nth-child(4) {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lasted-articles > article {
+  padding: 200px 50px;
+}
+
+.lasted-articles > article img {
+  height: 75px;
+  width: 75px;
+  border: 4px solid white;
+  border-radius: 11px;
+}
+
+.lasted-articles > article strong {
+  margin-top: -30px;
+}
+
+.lasted-articles > article h2 {
+  font-size: 40px;
+}
+
+.lasted-articles > article i {
+  font-size: 40px;
+  position: relative;
+  bottom: -60px;
+}
+
+.theme-changer {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  right: 40px;
+  padding: 10px 20px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 11px;
+}
+
+article ul {
+  padding-left: 0;
+}
+
+article li {
+  display: inline;
+  font-size: 20px;
+}
+
+.hash-list li::before {
+  content: '#';
+  margin: 0 5px;
+  display: inline-block;
+  color: black;
+  font-size: calc(1em + ((0.4vw + 0.25vh) / 2));
+  position: relative;
+  top: 2px;
+}
+
+.promo-banner {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.promo-banner button {
+  background-color: gray;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 11px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.promo-banner img {
+  margin-top: -100px;
+}
+
+.article-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.partners .article-row {
+  grid-template-columns: 1fr;
+  text-align: left;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.article-row > article {
+  background-color: transparent;
+  margin: -20px;
+  padding: 60px;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.community-articles p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.article-row > article p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.article-row > article h2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.article-row > article h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.article-row > article i {
+  position: relative;
+  bottom: -25px;
+  left: -60px;
+  background-color: transparent;
+  padding: 40px 40px 60px 40px;
+  transition-duration: 0.3s;
+}
+
+.article-row > article:hover {
+  background-color: white;
+  margin-top: -30px;
+  margin-bottom: -20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.article-row > article:hover i {
+  background-color: gray;
+  color: white;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.shopify {
+  width: calc(100% - 100px);
+  margin: 20px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.shopify p {
+  margin: 30px 0;
+}
+
+.shopify button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.shopify img {
+  height: 25px;
+}
+
+.members {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 11px;
+  padding: 40px;
+  text-align: center;
+  color: white;
+  width: calc(100% - 100px);
+}
+
+.members p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.members h1 {
+  font-size: 40px;
+  text-decoration: gray underline;
+}
+
+.members button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7a7a7a;
+}
+
+.members button i {
+  margin: 0 10px;
+}
+
+.members img {
+  height: 250px;
+}
+
+.see-all {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.see-all p {
+  padding-bottom: 15px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.see-all p:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.big-ad {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  text-align: center;
+}
+
+.big-ad h1 {
+  font-size: 60px;
+  text-decoration: gray underline;
+}
+
+.big-ad p {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.big-ad button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7a7a7a;
+  margin: 30px 0;
+}
+
+.big-ad img {
+  width: 70vw;
+}
+
+.person-of-the-week {
+  display: flex;
+  padding: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+}
+
+.person-of-the-week span {
+  text-transform: uppercase;
+}
+
+.person-of-the-week img {
+  margin: 40px;
+  transform: rotate(-10deg);
+  border: 5px solid rgba(0, 0, 0, 0.7);
+  border-radius: 11px;
+}
+
+.community-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px 400px 400px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.community-articles article {
+  padding: 40px;
+  width: calc(100% - 80px);
+  display: flex;
+}
+
+.community-articles img {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  transform: rotate(-10deg);
+  border-radius: 11px;
+  border: 5px solid rgba(0, 0, 0, 0.75);
+}
+
+.community-articles span {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+}
+
+.community-articles h1 {
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 10px 0 20px 0;
+}
+
+.community-articles p > span {
+  font-size: 14px;
+}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.community-articles a {
+  text-decoration: underline;
+}
+
+.featured-book {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  padding: 40px 60px;
+}
+
+.featured-book h1 {
+  font-size: 40px;
+  text-decoration: #7a7a7a underline;
+}
+
+.featured-book p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.featured-book img {
+  transform: rotate(-10deg);
+  width: 250px;
+  height: 400px;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
+.featured-book button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #7a7a7a;
+  margin: 30px 0;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #7a7a7a;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.guides > div {
+  margin: 40px;
+  background-color: white;
+  padding: 40px;
+  width: calc(100% - 140px);
+  border-radius: 11px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guides h1 {
+  font-size: 40px;
+}
+
+.guides p {
+  line-height: 30px;
+}
+
+.guides button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin: 30px 0;
+  background-color: gray;
+}
+
+.guides form button {
+  border-radius: 0 11px 11px 0;
+  margin: 0;
+}
+
+.guides input {
+  height: 62px;
+  border-radius: 11px 0 0 11px;
+  border: none;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.guides input::placeholder {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.guides > div:last-child {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.guides form {
+  display: flex;
+  width: 100%;
+}
+
+.guides img {
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 40px;
+  line-height: 2rem;
+  background-image: url('https://www.smashingmagazine.com/images/footer/laptop__left.svg'), url('https://www.smashingmagazine.com//images/smashing-cat/cat-the-behemoth.svg');
+  background-position: left 15% bottom 1em, right 12% bottom 2em;
+  background-size: 11em auto, 14em auto;
+  background-repeat: no-repeat;
+}
+
+footer ul {
+  list-style-type: disc;
+}
+
+.red-button-list li::before {
+  content: '•';
+  margin: 0 0.25em;
+  display: inline-block;
+  color: black;
+  font-size: calc(1em + ((0.4vw + 0.25vh) / 2));
+  position: relative;
+  top: 2px;
+}
+
+.footer-em-wraper {
+  width: 40vw;
+  min-width: 400px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-em-wraper em {
+  font-size: 14px;
+}

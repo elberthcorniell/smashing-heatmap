@@ -1,22 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Smash Magazine Heatmap
 
-> One paragraph statement about the project.
+> Heatmap for Smash Magazine website
 
-![screenshot](./app_screenshot.png)
+![screenshot](./src/images/app_screenshot.png)
 
-Additional description about the project and its features.
+In this project we can see a heatmap of the UI of Smash Magazine
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://elberthcorniell.github.io/smashing-heatmap/)
 
 
 ## Getting Started
@@ -29,48 +28,40 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Live Server plugin for Visual Studio Code 
+
 ### Setup
 
-### Install
+1- Clone the repository
+```
+git clone https://github.com/elberthcorniell/smashing-heatmap.git
+```
 
-### Usage
+2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
 
-### Run tests
-
-### Deployment
-
+3- Everything should be running by now. 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Elbert Corniell**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@elberthcorniell](https://github.com/elberthcorniell)
+- Twitter: [@elberthcorniell](https://twitter.com/elberthcorniell)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elbert-corniell-989183159/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/elberthcorniell/smashing-heatmap/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE) licensed.
